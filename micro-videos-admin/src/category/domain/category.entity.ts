@@ -12,7 +12,7 @@ export type CategoryCreateCommand = {
     is_active?: boolean;
 }
 
-export class Category {
+export abstract class Category {
     category_id: string;
     name: string;
     description: string | null;
